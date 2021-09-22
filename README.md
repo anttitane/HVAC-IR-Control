@@ -42,7 +42,7 @@ void sendHvacMitsubishiFD(
 
 Functions confirmed in MSZ-GE and MFZ modules from Mitsubishi.
 
-## ilp_control.py usage
+## ilp_control.py usage (to be added when ready)
 Usage: "sudo python ilp_commander.py -m 'cooling/heating' -t 'temperature' -f 'fanspeed'
        To power of set temperature to 0
        
