@@ -13,8 +13,12 @@ Examples for building a Raspberry Pi IR sender can be found from here:
 https://www.raspberry-pi-geek.com/Archive/2015/10/Raspberry-Pi-IR-remote
 
 ## ilp_control.py usage
-Usage: sudo python ilp_commander.py -m 'cooling/heating' -t 'temperature in deg C' -f 'fanspeed: low, med, high, auto'
+Usage: 
+
+sudo python ilp_commander.py -m 'cooling/heating' -t 'temperature in deg C' -f 'fanspeed: low, med, high, auto'
        
-       To power of set temperature to 0
+To power off set temperature to 0
        
-Example: sudo python ilp_commander.py -m cooling -t 21 -f high
+Example: 
+
+       sudo python ilp_commander.py -m cooling -t 21 -f high
