@@ -2,7 +2,7 @@
 
 
 ## Introduction
-HVAC IR Control aims to facilitate control of your Mitsubishi MSZ (ILP or ilmalämpöpumppu in Finnish) HVAC emulating the IR code using a Raspberry Pi. 
+HVAC IR Control aims to facilitate control of your Mitsubishi MSZ or MFZ (ILP or ilmalämpöpumppu in Finnish) HVAC emulating the IR code using a Raspberry Pi. 
 
 ## Project background
 This repository is a fork from Ericmas001. 
@@ -11,9 +11,6 @@ I have developed a simple solution for sending commands to Mitsubishi MSZ using 
 ## Hardware
 Examples for building a Raspberry Pi IR sender can be found from here:
 https://www.raspberry-pi-geek.com/Archive/2015/10/Raspberry-Pi-IR-remote
-
-# ilp_control.py usage
-Functions confirmed in MSZ-GE and MFZ modules from Mitsubishi.
 
 ## ilp_control.py usage
 Usage: sudo python ilp_commander.py -m 'cooling/heating' -t 'temperature in deg C' -f 'fanspeed: low, med, high, auto'
