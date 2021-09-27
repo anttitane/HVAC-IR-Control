@@ -14,6 +14,7 @@ https://www.raspberry-pi-geek.com/Archive/2015/10/Raspberry-Pi-IR-remote
 
 ## ilp_control.py usage
 Usage: sudo python ilp_commander.py -m 'cooling/heating' -t 'temperature in deg C' -f 'fanspeed: low, med, high, auto'
+       
        To power of set temperature to 0
        
 Example: sudo python ilp_commander.py -m cooling -t 21 -f high
